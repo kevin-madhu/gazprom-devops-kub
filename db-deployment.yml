@@ -23,4 +23,4 @@ spec:
           - name: MYSQL_DATABASE
             value: "example"
         ports:
-        - containerPort: 5000
+        - containerPort: 3306
