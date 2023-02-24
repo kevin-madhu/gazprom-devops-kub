@@ -15,8 +15,8 @@ spec:
         app: db
     spec:
       containers:
-      - name: mariadb
-        image: mariadb
+      - name: mysql
+        image: mysql:8.0.32
         env:
           - name: MARIADB_ROOT_PASSWORD
             value: "dbpassword"
