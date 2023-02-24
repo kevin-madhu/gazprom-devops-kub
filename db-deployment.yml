@@ -21,7 +21,7 @@ spec:
           - name: MARIADB_ROOT_PASSWORD
             value: "dbpassword"
           - name: MARIADB_USER
-            value: "example-user"
+            value: "example-user@%"
           - name: MARIADB_PASSWORD
             value: "dbpassword"
           - name: MYSQL_DATABASE
